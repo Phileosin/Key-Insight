@@ -3,7 +3,7 @@
 import keyboard
 import time
 
-# Define a list to store the tapping data
+# Define a list to store the tapping dataZSD
 tapping_data = []
 
 
