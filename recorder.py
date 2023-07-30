@@ -65,7 +65,7 @@ plt.ylabel('Occurrences')
 plt.title(f'Letter Occurrences on {current_date}')
 plt.xticks(rotation=45)
 plt.tight_layout()
-plt.savefig(f'bar_graph_{current_date}.png', dpi=600)  # Increase the DPI
+plt.savefig(f'occurrences_{current_date}.png', dpi=600)  # Increase the DPI
 plt.show()
 
 # Create a word cloud
@@ -75,5 +75,5 @@ plt.imshow(wordcloud, interpolation='bilinear')
 plt.axis('off')
 plt.title(f'Letter Cloud for {current_date}')
 plt.tight_layout()
-plt.savefig(f'word_cloud_{current_date}.png', dpi=600)  # Increase the DPI
+plt.savefig(f'letter_cloud_{current_date}.png', dpi=600)  # Increase the DPI
 plt.show()
